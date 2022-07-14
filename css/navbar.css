@@ -62,6 +62,7 @@
     .topnav-right {
         float: none;
         display: block;
+        position: absolute;
     }
 
     .topnav-centered a {
