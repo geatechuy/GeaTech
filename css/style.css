@@ -1,0 +1,488 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Baloo 2', cursive;
+}
+
+::-webkit-scrollbar {
+    display: none;
+}
+
+html {
+    scroll-behavior: smooth;
+}
+
+[id] {
+    scroll-margin-top: 8vh;
+}
+
+body {
+    background-color: #dfdfdf;
+}
+
+/* Presentación */
+
+.container {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    background: url(/Images/programer-sitting-at-desk-with-multiple-screens-running-code-talking-with-colleague-about-artificial-intelligence-algorithm-software-developers-doing-innovative-artificial-intelligence-project.jpg) center;
+    background-size: cover;
+    height: 90vh;
+}
+
+.left {
+    background: linear-gradient(rgba(167, 219, 237, 0.805), rgba(128, 128, 128, 0.866));
+    display: flex;
+    text-align: center;
+    place-items: center;
+    justify-content: center;
+}
+
+.left #logo {
+    width: 200px;
+    height: 200px;
+}
+
+.left h1 {
+    color: #fff;
+    font-size: 50;
+}
+
+.left p {
+    color: #fff;
+    font-size: 20;
+}
+
+@media (max-width:600px) {
+    .container {
+        grid-template-columns: 3fr 1fr;
+    }
+
+}
+
+/* Servicios */
+
+.list {
+    font-size: 30px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    place-items: center;
+}
+
+.list2 {
+    font-size: 30px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    place-items: center;
+}
+
+.list ul {
+    padding: 50px;
+    list-style: none;
+}
+
+.list2 ul {
+    list-style: none;
+}
+
+.list li {
+    margin: 10px;
+}
+
+.list2 li {
+    margin: 20px;
+}
+
+.tarjet {
+    font-size: 20px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    min-height: 30vh;
+}
+
+.tarj {
+    position: relative;
+    width: 320px;
+    height: 360px;
+    border-radius: 10px;
+    box-shadow: 2px 3px 5px rgba(73, 69, 52, 0.4);
+    margin: 40px;
+    transition: 0.5s;
+    z-index: 2;
+}
+
+.tarjet2 {
+    font-size: 20px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    min-height: 30vh;
+}
+
+.tarjet2 .tarj {
+    position: relative;
+    width: 320px;
+    height: 300px;
+    border-radius: 10px;
+    box-shadow: 2px 3px 5px rgba(73, 69, 52, 0.4);
+    margin: 40px;
+    transition: 0.5s;
+    z-index: 2;
+}
+
+.tarj .cont {
+    position: relative;
+    z-index: 100;
+    width: 100%;
+    height: 100%;
+    border-radius: 10px;
+    display: flex;
+    flex-direction: column;
+    overflow: hidden;
+    text-align: center;
+    padding: 20px;
+    background: #272822;
+}
+
+.tarj .cont #lang {
+    display: flex;
+    width: 60px;
+    margin: 0px auto;
+    margin-bottom: 15px;
+}
+
+.tarj .cont #lang2 {
+    display: flex;
+    width: 90px;
+    margin: 0px auto;
+    margin-bottom: 15px;
+}
+
+#tarj1:hover {
+    box-shadow: 0 5px 15px #f06529;
+    transform: translateY(-10px);
+    transition: 0.5s;
+}
+
+#tarj2:hover {
+    box-shadow: 0 5px 15px #2965f1;
+    transform: translateY(-10px);
+    transition: 0.5s;
+}
+
+#tarj3:hover {
+    box-shadow: 0 5px 15px #f0db4f;
+    transform: translateY(-10px);
+    transition: 0.5s;
+}
+
+#tarj4:hover {
+    box-shadow: 0 5px 15px #00758f;
+    transform: translateY(-10px);
+    transition: 0.5s;
+}
+
+#tarj5:hover {
+    box-shadow: 0 5px 15px #8993be;
+    transform: translateY(-10px);
+    transition: 0.5s;
+}
+
+/* Proyectos */
+
+.project,
+.project a {
+    min-height: 30vh;
+    text-decoration: none
+}
+
+.projectTarj {
+    min-height: 50vh;
+    font-size: 20px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.tarjS {
+    position: relative;
+    width: 500px;
+    height: 200px;
+    border-radius: 10px;
+    box-shadow: 2px 3px 5px rgba(73, 69, 52, 0.4);
+    margin: 40px;
+    transition: 0.5s;
+    z-index: 2;
+}
+
+.tarjS .cont {
+    position: relative;
+    z-index: 100;
+    width: 100%;
+    height: 100%;
+    border-radius: 10px;
+    display: flex;
+    flex-direction: column;
+    overflow: hidden;
+    text-align: center;
+    padding: 20px;
+    background: #efefef;
+}
+
+.tarjS .cont h2 {
+    font-size: 25px;
+    margin-bottom: 5px;
+}
+
+.tarjS .cont img {
+    margin-top: 30px;
+    width: 100%;
+}
+
+#tarj6:hover {
+    box-shadow: 0 5px 15px #8cc63f;
+    transform: translateY(-10px);
+    transition: 0.5s;
+}
+
+
+/* Tarjetas de Nosotros */
+
+.container2 {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    height: 30vh;
+}
+
+.left2,
+.right2 {
+    display: flex;
+    text-align: center;
+    place-items: center;
+    justify-content: center;
+    padding: 50px;
+}
+
+.left2 h1,
+.right2 h1 {
+    color: #0b6f72;
+    font-size: 40px;
+}
+
+.left2 p,
+.right2 p {
+    color: #0b6f72;
+    font-size: 30px;
+}
+
+@media (max-width:600px) {
+    .container2 {
+        grid-template-columns: 3fr 1fr;
+    }
+
+}
+
+.titulo {
+    min-height: 1vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    place-items: center;
+    font-size: 20px;
+    padding-top: 10px;
+}
+
+.titulo h1 {
+    color: #0b6f72;
+}
+
+.tarjetas {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    min-height: 70vh;
+}
+
+.card {
+    position: relative;
+    width: 300px;
+    height: 350px;
+    border-radius: 10px;
+    box-shadow: 2px 3px 5px rgba(73, 69, 52, 0.4);
+    margin: 40px;
+    transition: 0.5s;
+    z-index: 2;
+}
+
+.card .content {
+    position: relative;
+    z-index: 100;
+    width: 100%;
+    height: 100%;
+    border-radius: 10px;
+    display: flex;
+    flex-direction: column;
+    overflow: hidden;
+    text-align: center;
+    padding: 20px;
+    background: #fff;
+}
+
+.card .content .img {
+    height: 50%;
+    margin-bottom: 20px;
+}
+
+.card .content .img img {
+    position: relative;
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+    object-fit: cover;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.8);
+}
+
+.card .content span {
+    position: absolute;
+    width: 400px;
+    height: 200px;
+    background: linear-gradient(to right, #0b6f72, #73c7d7);
+    transform: rotate(-35deg);
+    top: -50px;
+    left: -100px;
+}
+
+.card .content h2 {
+    font-size: 25px;
+    color: #18505c;
+    margin-bottom: 5px;
+    z-index: 1;
+}
+
+.card .content h3 {
+    font-size: 20px;
+    color: #0b6f72;
+}
+
+.card .content p {
+    font-size: 13px;
+    color: #1a161f;
+    margin-top: 10px;
+}
+
+.card:hover {
+    box-shadow: 0 5px 15px rgba(3, 89, 92, .5);
+    transform: translateY(-10px);
+    transition: 0.5s;
+}
+
+/* Contacto */
+
+.contact {
+    min-height: 5vh;
+}
+
+.content {
+    color: #0b6f72;
+    font-size: 25px;
+}
+
+ul {
+    list-style: none;
+    padding: 0;
+}
+
+.contact-wrapper {
+    padding: 1em;
+}
+
+.contact-form form {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+}
+
+.contact-form form label {
+    display: block;
+}
+
+.contact-form form p {
+    margin: 0;
+    padding: 1em;
+}
+
+.contact-form form .block {
+    grid-column: 1 / 3;
+}
+
+.contact-form form button,
+.contact-form form input,
+.contact-form form textarea {
+    width: 100%;
+    padding: .5em;
+    border: none;
+    background: none;
+    outline: 0;
+    color: #000;
+    border-bottom: 1px solid #0b6f72;
+}
+
+.contact-form form button {
+    background: #0b6f72;
+    border: 0;
+    text-transform: uppercase;
+    padding: 1em;
+}
+
+.contact-form form button:hover,
+.contact-form form button:focus {
+    background: #73c7d7;
+    color: #fff;
+    transition: background-color 1s ease-out;
+    outline: 0;
+}
+
+/* Información de Contacto */
+.contact-info {
+    background: #0b6f72;
+}
+
+.contact-info h4,
+.contact-info ul {
+    text-align: center;
+    margin: 0 0 1rem 0;
+    color: #fff;
+    padding: 10px;
+}
+
+.contact-info p {
+    text-align: center;
+    margin: 0 0 1rem 0;
+    color: #fff;
+    font-size: 40px;
+}
+
+/* Tamaño Largo */
+@media(min-width: 600px) {
+    .content {
+        padding: 0 4em;
+    }
+
+    .contact-wrapper {
+        display: grid;
+        grid-template-columns: 2fr 1fr;
+    }
+
+    .contact-wrapper>* {
+        padding: 2em;
+    }
+
+    .contact-info h4,
+    .contact-info ul,
+    .contact-info p {
+        text-align: left;
+    }
+}
