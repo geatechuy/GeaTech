@@ -192,6 +192,20 @@ body {
     transition: 0.5s;
 }
 
+@media (max-width:800px) {
+    .list {
+        font-size: 25px;
+    }
+
+    .tarjet {
+        position: relative;
+        align-items: center;
+        justify-content: center;
+        min-height: 30vh;
+    }
+
+}
+
 /* Proyectos */
 
 .project,
