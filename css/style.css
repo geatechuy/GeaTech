@@ -163,31 +163,31 @@ body {
 }
 
 #tarj1:hover {
-    box-shadow: 0 5px 15px #f06529;
+    box-shadow: 0 10px 25px #f06529;
     transform: translateY(-10px);
     transition: 0.5s;
 }
 
 #tarj2:hover {
-    box-shadow: 0 5px 15px #2965f1;
+    box-shadow: 0 10px 25px #2965f1;
     transform: translateY(-10px);
     transition: 0.5s;
 }
 
 #tarj3:hover {
-    box-shadow: 0 5px 15px #f0db4f;
+    box-shadow: 0 10px 25px #f0db4f;
     transform: translateY(-10px);
     transition: 0.5s;
 }
 
 #tarj4:hover {
-    box-shadow: 0 5px 15px #00758f;
+    box-shadow: 0 10px 25px #00758f;
     transform: translateY(-10px);
     transition: 0.5s;
 }
 
 #tarj5:hover {
-    box-shadow: 0 5px 15px #8993be;
+    box-shadow: 0 10px 25px #8993be;
     transform: translateY(-10px);
     transition: 0.5s;
 }
