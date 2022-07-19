@@ -284,13 +284,13 @@ body {
 .left2 h1,
 .right2 h1 {
     color: #0b6f72;
-    font-size: 40px;
+    font-size: 30px;
 }
 
 .left2 p,
 .right2 p {
     color: #0b6f72;
-    font-size: 30px;
+    font-size: 20px;
 }
 
 @media (max-width:600px) {
