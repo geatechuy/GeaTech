@@ -18,7 +18,7 @@ html {
 }
 
 body {
-    background-color: #333;
+    background-color: #e1e1e1;
 }
 
 /* Presentación */
@@ -69,7 +69,7 @@ body {
     align-items: center;
     justify-content: center;
     place-items: center;
-    color: #fff;
+    color: #000;
 }
 
 .list2 {
@@ -78,7 +78,7 @@ body {
     align-items: center;
     justify-content: center;
     place-items: center;
-    color: #fff;
+    color: #000;
 }
 
 .list ul {
@@ -147,7 +147,7 @@ body {
     overflow: hidden;
     text-align: center;
     padding: 20px;
-    background: rgba(255, 255, 255, 0.2);
+    background: rgba(0, 0, 0, 0.8);
     backdrop-filter: blur(5px);
 }
 
@@ -318,6 +318,7 @@ body {
     align-items: center;
     justify-content: center;
     min-height: 70vh;
+    position: relative;
 }
 
 .card {
@@ -326,7 +327,7 @@ body {
     height: 350px;
     border-radius: 10px;
     box-shadow: 2px 3px 5px rgba(73, 69, 52, 0.4);
-    margin: 40px;
+    margin: 30px;
     transition: 0.5s;
     z-index: 2;
 }
@@ -342,7 +343,7 @@ body {
     overflow: hidden;
     text-align: center;
     padding: 20px;
-    background: rgba(255, 255, 255, 0.2);
+    background: rgba(0, 0, 0, 0.5);
     backdrop-filter: blur(5px);
 }
 
@@ -389,7 +390,7 @@ body {
 }
 
 .card:hover {
-    box-shadow: 0 5px 15px #fff;
+    box-shadow: 0 5px 15px rgb(129, 129, 120);
     transition: 0.5s;
 }
 
@@ -416,6 +417,7 @@ ul {
 .contact-form form {
     display: grid;
     grid-template-columns: 1fr 1fr;
+    padding-bottom: 50px;
 }
 
 .contact-form form label {
