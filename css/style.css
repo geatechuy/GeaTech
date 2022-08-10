@@ -18,8 +18,32 @@ html {
 }
 
 body {
-    background-color: #efefef;
+    background-color: #e1e1e1;
 }
+
+.topnav a {
+    float: left;
+    display: flex;
+
+
+}
+
+.ax {
+    height: 60px;
+    margin-bottom: 10px;
+}
+
+a.uno,
+a.dos,
+a.tres,
+a.cuatro {
+    margin-top: 10px;
+}
+
+.topnav .icon {
+    display: none;
+}
+
 
 /* Presentación */
 
@@ -37,6 +61,7 @@ body {
     text-align: center;
     place-items: center;
     justify-content: center;
+
 }
 
 .left #logo {
@@ -54,12 +79,6 @@ body {
     font-size: 20;
 }
 
-@media (max-width:600px) {
-    .container {
-        grid-template-columns: 3fr 1fr;
-    }
-
-}
 
 /* Servicios */
 
@@ -69,6 +88,7 @@ body {
     align-items: center;
     justify-content: center;
     place-items: center;
+    color: #000;
 }
 
 .list2 {
@@ -77,10 +97,11 @@ body {
     align-items: center;
     justify-content: center;
     place-items: center;
+    color: #000;
 }
 
 .list ul {
-    padding: 50px;
+    padding: 10px;
     list-style: none;
 }
 
@@ -96,40 +117,13 @@ body {
     margin: 20px;
 }
 
-.tarjet {
-    font-size: 20px;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    min-height: 30vh;
-}
 
 .tarj {
     position: relative;
-    width: 320px;
-    height: 360px;
+    width: 300px;
+    height: 350px;
     border-radius: 10px;
     box-shadow: 2px 3px 5px rgba(73, 69, 52, 0.4);
-    margin: 40px;
-    transition: 0.5s;
-    z-index: 2;
-}
-
-.tarjet2 {
-    font-size: 20px;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    min-height: 30vh;
-}
-
-.tarjet2 .tarj {
-    position: relative;
-    width: 320px;
-    height: 300px;
-    border-radius: 10px;
-    box-shadow: 2px 3px 5px rgba(73, 69, 52, 0.4);
-    margin: 40px;
     transition: 0.5s;
     z-index: 2;
 }
@@ -145,7 +139,8 @@ body {
     overflow: hidden;
     text-align: center;
     padding: 20px;
-    background: #272822;
+    background: rgba(0, 0, 0, 0.8);
+    backdrop-filter: blur(5px);
 }
 
 .tarj .cont #lang {
@@ -164,47 +159,30 @@ body {
 
 #tarj1:hover {
     box-shadow: 0 10px 25px #f06529;
-    transform: translateY(-10px);
     transition: 0.5s;
 }
 
 #tarj2:hover {
     box-shadow: 0 10px 25px #2965f1;
-    transform: translateY(-10px);
     transition: 0.5s;
 }
 
 #tarj3:hover {
     box-shadow: 0 10px 25px #f0db4f;
-    transform: translateY(-10px);
     transition: 0.5s;
 }
 
 #tarj4:hover {
     box-shadow: 0 10px 25px #00758f;
-    transform: translateY(-10px);
     transition: 0.5s;
 }
 
 #tarj5:hover {
     box-shadow: 0 10px 25px #8993be;
-    transform: translateY(-10px);
     transition: 0.5s;
 }
 
-@media (max-width:800px) {
-    .list {
-        font-size: 25px;
-    }
 
-    .tarjet {
-        position: relative;
-        align-items: center;
-        justify-content: center;
-        min-height: 30vh;
-    }
-
-}
 
 /* Proyectos */
 
@@ -244,7 +222,8 @@ body {
     overflow: hidden;
     text-align: center;
     padding: 20px;
-    background: #efefef;
+    background: rgba(255, 255, 255, 0.2);
+    backdrop-filter: blur(5px);
 }
 
 .tarjS .cont h2 {
@@ -264,7 +243,7 @@ body {
 }
 
 
-/* Tarjetas de Nosotros */
+/* Nosotros */
 
 .container2 {
     display: grid;
@@ -293,12 +272,7 @@ body {
     font-size: 20px;
 }
 
-@media (max-width:600px) {
-    .container2 {
-        grid-template-columns: 3fr 1fr;
-    }
 
-}
 
 .titulo {
     min-height: 1vh;
@@ -319,6 +293,8 @@ body {
     align-items: center;
     justify-content: center;
     min-height: 70vh;
+    position: relative;
+    flex-wrap: wrap
 }
 
 .card {
@@ -327,7 +303,7 @@ body {
     height: 350px;
     border-radius: 10px;
     box-shadow: 2px 3px 5px rgba(73, 69, 52, 0.4);
-    margin: 40px;
+    margin: 30px;
     transition: 0.5s;
     z-index: 2;
 }
@@ -343,7 +319,8 @@ body {
     overflow: hidden;
     text-align: center;
     padding: 20px;
-    background: #fff;
+    background: rgba(0, 0, 0, 0.5);
+    backdrop-filter: blur(5px);
 }
 
 .card .content .img {
@@ -362,35 +339,34 @@ body {
 
 .card .content span {
     position: absolute;
-    width: 400px;
-    height: 200px;
-    background: linear-gradient(to right, #0b6f72, #73c7d7);
-    transform: rotate(-35deg);
-    top: -50px;
-    left: -100px;
+    width: 800px;
+    height: 30px;
+    background: linear-gradient(to right, rgba(255, 255, 255, 0.10), rgba(255, 255, 255, 0.01));
+    transform: rotate(-50deg);
+    top: 60px;
+    left: -50px;
 }
 
 .card .content h2 {
     font-size: 25px;
-    color: #18505c;
+    color: #fff;
     margin-bottom: 5px;
     z-index: 1;
 }
 
 .card .content h3 {
     font-size: 20px;
-    color: #0b6f72;
+    color: #fff;
 }
 
 .card .content p {
     font-size: 13px;
-    color: #1a161f;
-    margin-top: 10px;
+    color: #fff;
+    margin-top: 15px;
 }
 
 .card:hover {
-    box-shadow: 0 5px 15px rgba(3, 89, 92, .5);
-    transform: translateY(-10px);
+    box-shadow: 0 5px 15px rgb(129, 129, 120);
     transition: 0.5s;
 }
 
@@ -417,6 +393,7 @@ ul {
 .contact-form form {
     display: grid;
     grid-template-columns: 1fr 1fr;
+    padding-bottom: 50px;
 }
 
 .contact-form form label {
@@ -477,26 +454,4 @@ ul {
     margin: 0 0 1rem 0;
     color: #fff;
     font-size: 40px;
-}
-
-/* Tamaño Largo */
-@media(min-width: 600px) {
-    .content {
-        padding: 0 4em;
-    }
-
-    .contact-wrapper {
-        display: grid;
-        grid-template-columns: 2fr 1fr;
-    }
-
-    .contact-wrapper>* {
-        padding: 2em;
-    }
-
-    .contact-info h4,
-    .contact-info ul,
-    .contact-info p {
-        text-align: left;
-    }
 }

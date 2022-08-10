@@ -1,0 +1,467 @@
+/* IOS (SE, XR, 12 PRO ) */
+/* PIXEL 5*/
+/* S8+ */
+/* S20 ULTRA */
+/* A51/71 */
+/* IPAD (Air, Mini)*/
+/* SurFace (PRO7, DUO, FOLD) */
+/* NEST HUB & MAX*/
+@media screen and (max-width: 2040px) {
+  .tarj {
+    margin: 50px;
+  }
+}
+
+@media screen and (max-width: 1530px) {
+  div.container2 {
+    display: block;
+  }
+}
+
+@media screen and (min-width: 1250px) {
+  div.tarjetas {
+    flex-wrap: wrap
+  }
+}
+
+@media screen and (max-width: 1157px) {
+  .tarj {
+    margin: 20px;
+  }
+}
+
+@media screen and (max-width: 1120px) {
+  .tarj {
+    margin: 10px;
+  }
+}
+
+@media screen and (max-width: 1054px) {
+
+  ul.uno,
+  ul.dos,
+  ul.tres {
+    font-size: 20px;
+  }
+}
+
+@media screen and (max-width: 1000px) {
+  div.tarjet {
+    display: inline-block;
+    align-items: center;
+    justify-content: center;
+    position: relative;
+    padding-left: 320px;
+  }
+
+  div.tarjet2 {
+    display: inline-block;
+    align-items: center;
+    justify-content: center;
+    position: relative;
+    padding-left: 290px;
+  }
+}
+
+@media screen and (max-width: 927px) {
+  div.tarjet {
+    display: inline-block;
+    align-items: center;
+    justify-content: center;
+    position: relative;
+    padding-left: 280px;
+  }
+
+  div.tarjet2 {
+    display: inline-block;
+    align-items: center;
+    justify-content: center;
+    position: relative;
+    padding-left: 250px;
+  }
+}
+
+@media screen and (max-width: 835px) {
+  div.tarjet {
+    display: inline-block;
+    align-items: center;
+    justify-content: center;
+    position: relative;
+    padding-left: 240px;
+  }
+
+  div.tarjet2 {
+    display: inline-block;
+    align-items: center;
+    justify-content: center;
+    position: relative;
+    padding-left: 210px;
+  }
+}
+
+@media screen and (max-width: 800px) {
+
+  ul.uno,
+  ul.dos,
+  ul.tres {
+    font-size: 30px;
+    flex-wrap: wrap;
+  }
+
+  h1.nuestro.equipo {
+    margin-bottom: 1px;
+  }
+
+  #logo.logoacolor {
+    height: 90px;
+    width: 90px;
+  }
+
+  @media screen and (max-width: 800px) {
+    .topnav{
+      position: relative;
+    }
+  }
+
+  @media screen and (max-width: 775px) {
+    div.tarjet {
+      display: inline-block;
+      align-items: center;
+      justify-content: center;
+      position: relative;
+      padding-left: 200px;
+    }
+  }
+
+
+  @media screen and (max-width: 700px) {
+
+    ul.uno,
+    ul.dos,
+    ul.tres,
+    ul.cuatro {
+      font-size: smaller;
+    }
+
+    div.contact-form {
+      margin: none;
+
+      left: 10px;
+    }
+  }
+
+  @media screen and (max-width: 600px) {
+
+    ul.uno,
+    ul.dos,
+    ul.tres {
+      font-size: 15px;
+    }
+
+    div.tarjetas {
+      display: inline-block;
+      align-items: center;
+      justify-content: center;
+      min-height: 70vh;
+      position: relative;
+      padding-left: 100px;
+    }
+
+    div.tarjet,
+    div.tarjet2 {
+      display: inline-block;
+      align-items: center;
+      justify-content: center;
+      padding-left: 100px;
+      display: inline-block;
+      align-items: center;
+      justify-content: center;
+      position: relative;
+      padding-left: 250px;
+    }
+
+    div#tarj6.tarjS {
+      display: inline-block;
+      width: 300px;
+
+    }
+  }
+}
+
+
+
+@media screen and (max-width: 550px) {
+
+  li.back,
+  li.front {
+    font-size: large;
+  }
+
+  li {
+    font-size: 10px;
+    font-weight: bold;
+  }
+
+  li.back,
+  li.front {
+    font-size: small;
+  }
+
+  div.list {
+    padding: 0%;
+  }
+
+  .list ul {
+    padding: 0%;
+  }
+
+  li.back,
+  li.front {
+    font-size: smaller;
+  }
+
+}
+
+@media screen and (max-width: 540px) {
+  div.tarjetas {
+    right: 20px;
+  }
+
+  div.tarjet {
+    left: -150px;
+  }
+
+  div.tarjet2 {
+    right: 150px;
+  }
+}
+
+@media screen and (max-height: 914px) {
+  div.tarjet {
+    left: -208px;
+  }
+
+  div.tarjet2 {
+    right: -10px;
+  }
+}
+
+@media screen and (max-width: 435px) {
+  div.card {
+    right: 50px;
+  }
+}
+
+@media screen and (max-width: 428px) {
+  div.card {
+    right: 50px;
+  }
+}
+
+@media screen and (max-width: 420px) {
+
+  li.back,
+  li.front {
+    font-size: small;
+  }
+
+  li {
+    font-size: 10px;
+    font-weight: bold;
+  }
+
+  .tarjetas {
+    display: grid;
+  }
+}
+
+@media screen and (max-width: 412px) {
+  div.service {
+    margin: auto;
+  }
+}
+
+@media screen and (max-width: 400px) {
+
+  div.tarjetas {
+    right: 40px;
+  }
+}
+
+@media screen and (max-width: 390px) {
+  div.card {
+    right: 50px;
+  }
+
+  div.tarjetas {
+    right: 40px;
+  }
+}
+
+@media screen and (max-width: 384px) {
+
+  li.back,
+  li.front {
+    font-size: small;
+  }
+
+  li {
+    font-size: 10px;
+    font-weight: bold;
+  }
+
+  div.container2 {
+    display: block;
+  }
+
+  div.right2 {
+    margin: 5px;
+  }
+
+  div.tarjetas {
+    right: 45px;
+  }
+}
+
+@media screen and (max-width:375px) {
+  .ax {
+    height: 40px;
+  }
+
+  div.container2 {
+    display: block;
+  }
+
+  ul.uno,
+  ul.dos,
+  ul.tres {
+    text-align: center;
+    font-size: 10px;
+    padding: 10px;
+  }
+
+  .list ul {
+    padding: 10px;
+  }
+
+  li.front,
+  li.back {
+    font-size: small;
+  }
+
+  div.left2,
+  div.right2 {
+    font-size: medium;
+    padding: 20px;
+  }
+
+  .left2 h1,
+  .right2 h1 {
+    font-size: 20px;
+  }
+
+  .left2 p,
+  .right2 p {
+    font-size: 20px;
+  }
+
+  .titulo h1 {
+    padding: 5px;
+    font-size: 30px;
+  }
+
+  h1.nuetro.equipo {
+    padding-top: 30px;
+  }
+
+  .contact-info {
+    padding-bottom: 100px;
+  }
+}
+
+@media screen and (max-width: 360px) {
+
+  li.back,
+  li.front {
+    font-size: small;
+  }
+
+  li {
+    font-size: 10px;
+    font-weight: bold;
+  }
+
+  div.container2 {
+    display: block;
+  }
+
+  div.tarjetas {
+    right: 45px;
+  }
+}
+
+.tarjetas {
+  display: grid;
+}
+
+/* TERMINA RESPONSIVE DISPOSITIVOS*/
+/* TERMINA RESPONSIVE DISPOSITIVOS*/
+/* TERMINA RESPONSIVE DISPOSITIVOS*/
+
+
+
+/* BODY */
+/* Tamaño Largo */
+/* ETC */
+/* OTROS */
+@media (max-width:600px) {
+  .container {
+    grid-template-columns: 3fr 1fr;
+  }
+
+}
+
+@media (max-width:800px) {
+  .list {
+    font-size: 25px;
+  }
+
+  .tarjet {
+    position: relative;
+    align-items: center;
+    justify-content: center;
+    min-height: 30vh;
+    flex-wrap: wrap;
+    display: flex;
+  }
+
+}
+
+@media (max-width:600px) {
+  .container2 {
+    grid-template-columns: 3fr 1fr;
+  }
+
+}
+
+/* Tamaño Largo */
+@media(min-width: 600px) {
+  .content {
+    padding: 0 4em;
+  }
+
+  .contact-wrapper {
+    display: grid;
+    grid-template-columns: 2fr 1fr;
+  }
+
+  .contact-wrapper>* {
+    padding: 2em;
+  }
+
+  .contact-info h4,
+  .contact-info ul,
+  .contact-info p {
+    text-align: left;
+  }
+}
