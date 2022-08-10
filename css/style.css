@@ -19,7 +19,7 @@ html {
 
 body {
     background-color: #e1e1e1;
-    overflow-x:hidden
+    /* overflow-x:hidden */
 }
 
 .topnav a {
