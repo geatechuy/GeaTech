@@ -89,6 +89,7 @@ a.cuatro {
     justify-content: center;
     place-items: center;
     color: #000;
+    color: #000;
 }
 
 .list2 {
@@ -97,6 +98,7 @@ a.cuatro {
     align-items: center;
     justify-content: center;
     place-items: center;
+    color: #000;
     color: #000;
 }
 
@@ -393,6 +395,7 @@ ul {
 .contact-form form {
     display: grid;
     grid-template-columns: 1fr 1fr;
+    padding-bottom: 50px;
     padding-bottom: 50px;
 }
 
