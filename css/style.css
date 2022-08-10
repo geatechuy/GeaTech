@@ -3,7 +3,6 @@
     padding: 0;
     box-sizing: border-box;
     font-family: 'Roboto', sans-serif;
-    overflow-x:hidden
 }
 
 ::-webkit-scrollbar {
@@ -20,6 +19,7 @@ html {
 
 body {
     background-color: #e1e1e1;
+    overflow-x:hidden
 }
 
 .topnav a {
